@@ -5,6 +5,9 @@
   "username": "postgres",
   "password": "gobarber",
   "database": "gostack11_gobarber",
+  "entities": [
+    "./src/models/*.ts"
+  ],
   "migrations": [
     "./src/database/migrations/*.ts"
   ],
