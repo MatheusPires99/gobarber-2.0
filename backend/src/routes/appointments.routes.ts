@@ -5,18 +5,22 @@ import { getCustomRepository } from "typeorm";
 import AppointmentsRepository from "../repositories/AppointmentsRepository";
 import CreateAppointmentService from "../service/CreateAppointmentService";
 
+import authMiddleware from "../middlewares/auth";
+
 const appointmentsRouter = Router();
 
-appointmentsRouter.get("/", async (req, res) => {
+appointmentsRouter.use(authMiddleware);
+
+appointmentsRouter.get("/", async (request, response) => {
   const appointmentsRepository = getCustomRepository(AppointmentsRepository);
   const appointments = await appointmentsRepository.find();
 
-  return res.json(appointments);
+  return response.json(appointments);
 });
 
-appointmentsRouter.post("/", async (req, res) => {
+appointmentsRouter.post("/", async (request, response) => {
   try {
-    const { provider_id, date } = req.body;
+    const { provider_id, date } = request.body;
 
     const parsedDate = parseISO(date);
 
@@ -27,9 +31,9 @@ appointmentsRouter.post("/", async (req, res) => {
       date: parsedDate,
     });
 
-    return res.json(appointment);
+    return response.json(appointment);
   } catch (err) {
-    return res.status(400).json({ error: err.message });
+    return response.status(400).json({ error: err.message });
   }
 });
 
