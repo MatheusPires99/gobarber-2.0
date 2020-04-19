@@ -3,10 +3,12 @@
 </h1>
 
 <h2 align="center">
-  GoBarber API - Node.js + TypeScript
+  GoBarber API
 </h2>
 
-## 🔨 Tecnologias utilizadas para criação do projeto
+## 🚀 Tecnologias:
+
+Esse projeto foi desenvolvido no Bootcamp GoStack 11.0 da Rocketseat com as seguintes tecnologias:
 
 - [Node.js](https://nodejs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
