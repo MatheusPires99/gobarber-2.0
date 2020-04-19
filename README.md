@@ -27,13 +27,12 @@ Já o prestador de serviço, através de um interface Web, consegue ter acesso a
 **React Native**: em breve...
 
 ## :books: Requisitos
+- Ter [**Git**](https://git-scm.com/) para clonar o projeto.
 - Ter [**Node.js**](https://nodejs.org/en/) instalado.
 - Ter [**Docker**](https://www.docker.com/) rodando um container PostgreSQL.
 <!-- - Um dispositivo ou emulador iOS ou Android -->
 
 ## :rocket: Começando
-Para clonar esse projeto você precisará ter o [Git](https://git-scm.com/) instalado. Na linha de comando do seu computador:
-
 ``` bash
   # Clonar o projeto:
   $ git clone https://github.com/MatheusPires99/GoStack-11.0-GoBarber gobarber
