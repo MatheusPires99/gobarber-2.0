@@ -12,7 +12,7 @@ Esse projeto foi desenvolvido no Bootcamp GoStack 11.0 da Rocketseat com as segu
 
 - [Node.js](https://nodejs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
-- [Express](https://www.google.com/search?sxsrf=ALeKk03Ec3mFj4UeAPb6D6bXnoLLt-un3A%3A1587315910990&ei=xoScXpqHPKS55OUPnqOLmAg&q=express+github&oq=express+github&gs_lcp=CgZwc3ktYWIQAzIECCMQJzIFCAAQywEyBQgAEMsBMgUIABDLATIGCAAQFhAeMggIABAWEAoQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeOgQIABBHOgIIADoHCAAQChDLAVClClihD2DhD2gAcAJ4AIABhQGIAekEkgEDMC41mAEAoAEBqgEHZ3dzLXdpeg&sclient=psy-ab&ved=0ahUKEwiagpXI_PToAhWkHLkGHZ7RAoMQ4dUDCAw&uact=5)
+- [Express](https://expressjs.com/)
 - [Docker](https://www.docker.com/)
 - [PostgreSQL](https://www.postgresql.org/)
 - [TypeORM](https://typeorm.io/)
