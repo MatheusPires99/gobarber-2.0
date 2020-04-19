@@ -34,7 +34,7 @@ Já o prestador de serviço, através de um interface Web, consegue ter acesso a
 <!-- - Um dispositivo ou emulador iOS ou Android -->
 
 ## :rocket: Começando
-Para clonar esse projeto você precisará ter o [Git](https://git-scm.com/) instalado no seu computador.
+Para clonar esse projeto você precisará ter o [Git](https://git-scm.com/) instalado. Na linha de comando do seu computador:
 
 ``` bash
   # Clonar o projeto:
