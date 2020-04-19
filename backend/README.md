@@ -3,7 +3,7 @@
 </h1>
 
 <h2 align="center">
-  GoBarber API - Node.js + TypeScript
+  GoBarber API
 </h2>
 
 ## 🔨 Tecnologias utilizadas para criação do projeto
