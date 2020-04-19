@@ -27,8 +27,8 @@ Já o prestador de serviço, através de um interface Web, consegue ter acesso a
 **React Native**: em breve...
 
 ## :books: Requisitos
-- Ter **Node.js** instalado.
-- Ter **Docker** rodando um container PostgreSQL.
+- Ter [**Node.js**](https://nodejs.org/en/) instalado.
+- Ter [**Docker**](https://www.docker.com/) rodando um container PostgreSQL.
 <!-- - Um dispositivo ou emulador iOS ou Android -->
 
 ## :rocket: Começando
