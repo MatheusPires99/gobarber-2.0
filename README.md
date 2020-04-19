@@ -20,7 +20,7 @@ Essa é a aplicação GoBarber, que é uma plataforma de agendamento de serviço
 
 Já o prestador de serviço, através de um interface Web, consegue ter acesso a todos os seus horários, podendo ver todos os que estão ocupados quanto os que estão disponíveis.
 
-**Node.js**: é uma API REST que faz todo o CRUD da aplicação, persistência de dados, trativa de exceções e que serve dados tanto ao front-end quanto ao mobile.
+**Node.js**: é uma API REST que faz todo o CRUD da aplicação, persistência de dados, tratativa de exceções e que serve dados tanto ao front-end quanto ao mobile.
 
 **ReactJS**: em breve...
 
