@@ -57,4 +57,4 @@ Já o prestador de serviço, através de um interface Web, consegue ter acesso a
   $ yarn dev:server
 ```
 
-Feito com ♥ por Matheus Pires :wave: [Get in touch!](https://github.com/MatheusPires99)
+Feito com ❤️ por Matheus Pires 👋🏻 [Get in touch!](https://github.com/MatheusPires99)
