@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="GoStack" src="https://ik.imagekit.io/hwyksvj4iv/Node_TS_XeByCaxsC.png" width="300" />
+    <img alt="GoStack" src="https://ik.imagekit.io/hwyksvj4iv/Node_ts_mB6oya1Il.png" width="300" />
     <br />
     GoBarber API
 </h1>
