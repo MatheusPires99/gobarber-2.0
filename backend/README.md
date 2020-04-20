@@ -1,10 +1,8 @@
 <h1 align="center">
     <img alt="GoStack" src="https://ik.imagekit.io/hwyksvj4iv/Node_TS_XeByCaxsC.png" width="300" />
+    <br />
+    GoBarber API
 </h1>
-
-<h2 align="center">
-  GoBarber API
-</h2>
 
 ## 🚀 Tecnologias:
 
