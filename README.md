@@ -35,7 +35,7 @@ Já o prestador de serviço, através de um interface Web, consegue ter acesso a
 ## :rocket: Começando
 ``` bash
   # Clonar o projeto:
-  $ git clone https://github.com/MatheusPires99/GoStack-11.0-GoBarber gobarber
+  $ git clone https://github.com/MatheusPires99/gobarber-2.0 gobarber
 
   # Entrar no diretório:
   $ cd gobarber
