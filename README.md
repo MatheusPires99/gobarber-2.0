@@ -1,17 +1,17 @@
 <h1 align="center">
-    <img alt="GoStack" src="https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/bootcamp-header.png" width="200px" />
-    <br>
-    GoBarber
+    <img alt="GoStack" src="https://ik.imagekit.io/hwyksvj4iv/gobarber_19xmN2BUU.svg" width="250px" />
 </h1>
 
 <p align="center">
   <a href="#page_with_curl-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#books-requisitos">Requisitos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-começando">Começando</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#gear-iniciando-back-end">Node.js</a><!-- &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; -->
-  <!-- <a href="#computer-inicinado-front-end">ReactJS</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#gear-iniciando-back-end">Node.js</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#computer-iniciando-front-end">ReactJS</a><!-- &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#iphone-iniciando-mobile">React Native</a> -->
 </p>
+
+![github_explorer](.github/gobarber.gif)
 
 ## :page_with_curl: Sobre
 Este repositório contém um API REST em Node.js como back-end, uma aplicação em ReactJS como front-end e um app mobile em React Native, todos utilizando TypeScript.
@@ -22,7 +22,7 @@ Já o prestador de serviço, através de um interface Web, consegue ter acesso a
 
 **Node.js**: é uma API REST que faz todo o CRUD da aplicação, persistência de dados, tratativa de exceções e que serve dados tanto ao front-end quanto ao mobile.
 
-**ReactJS**: em breve...
+**ReactJS**: é uma página Web no qual o prestador de serviço tem acesso a todo o seu calendário de agendamentos.
 
 **React Native**: em breve...
 
@@ -54,6 +54,18 @@ Já o prestador de serviço, através de um interface Web, consegue ter acesso a
 
   # Rodar a aplicação:
   $ yarn dev:server
+```
+
+## :computer: Iniciando front-end
+```bash
+  # Entrar no diretório do back-end:
+  $ cd frontend
+
+  # Instalar as dependências:
+  $ yarn
+
+  # Rodar a aplicação:
+  $ yarn start
 ```
 
 Feito com ❤️ por Matheus Pires 👋🏻 [Get in touch!](https://github.com/MatheusPires99)
