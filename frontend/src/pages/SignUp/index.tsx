@@ -1,4 +1,4 @@
-import React, { useCallback, useRef } from "react";
+import React, { useCallback, useRef, useState } from "react";
 import { Link, useHistory } from "react-router-dom";
 import { FiArrowLeft, FiUser, FiMail, FiLock } from "react-icons/fi";
 import { Form } from "@unform/web";
@@ -27,6 +27,8 @@ interface SignUpFormData {
 const SignUp: React.FC = () => {
   const formRef = useRef<FormHandles>(null);
 
+  const [loading, setLoading] = useState(false);
+
   const { addToast } = useToast();
 
   const history = useHistory();
@@ -48,6 +50,8 @@ const SignUp: React.FC = () => {
           abortEarly: false,
         });
 
+        setLoading(true);
+
         await api.post("users", data);
 
         addToast({
@@ -56,9 +60,13 @@ const SignUp: React.FC = () => {
           description: "Você já pode fazer seu logon no GoBarber",
         });
 
+        setLoading(false);
+
         history.push("/");
       } catch (err) {
         if (err instanceof Yup.ValidationError) {
+          setLoading(false);
+
           const errors = getValidationErrors(err);
 
           formRef.current?.setErrors(errors);
@@ -101,7 +109,9 @@ const SignUp: React.FC = () => {
               placeholder="Senha"
             />
 
-            <Button type="submit">Cadastrar</Button>
+            <Button loading={loading} type="submit">
+              Cadastrar
+            </Button>
           </Form>
 
           <Link to="/">

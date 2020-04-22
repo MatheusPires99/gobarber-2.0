@@ -38,7 +38,9 @@ export const AnimationContainer = styled.div`
   form {
     margin: 80px 0;
     width: 340px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
     h1 {
       margin-bottom: 24px;
@@ -47,7 +49,6 @@ export const AnimationContainer = styled.div`
     a {
       color: #f4ede8;
       margin-top: 24px;
-      display: block;
       transition: color 0.2s;
 
       &:hover {
