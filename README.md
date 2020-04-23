@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="GoStack" src="https://ik.imagekit.io/hwyksvj4iv/gobarber_19xmN2BUU.svg" width="250px" />
+    <img alt="Gobarber" src="https://ik.imagekit.io/hwyksvj4iv/gobarber_19xmN2BUU.svg" width="250px" />
 </h1>
 
 <p align="center">
@@ -11,7 +11,9 @@
   <a href="#iphone-iniciando-mobile">React Native</a> -->
 </p>
 
-![github_explorer](.github/gobarber.gif)
+<h1 align="center">
+    <img alt="GoBarber" src="https://res.cloudinary.com/matheuspires/image/upload/v1587644482/gobarber-1300_y2p7rp.gif" />
+</h1>
 
 ## :page_with_curl: Sobre
 Este repositório contém um API REST em Node.js como back-end, uma aplicação em ReactJS como front-end e um app mobile em React Native, todos utilizando TypeScript.
