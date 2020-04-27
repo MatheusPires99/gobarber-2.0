@@ -61,7 +61,7 @@ Já o prestador de serviço, através de um interface Web, consegue ter acesso a
 
 ## :computer: Iniciando front-end
 ```bash
-  # Entrar no diretório do back-end:
+  # Entrar no diretório do front-end:
   $ cd frontend
 
   # Instalar as dependências:
@@ -73,7 +73,7 @@ Já o prestador de serviço, através de um interface Web, consegue ter acesso a
 
 ## :iphone: Iniciando mobile
 ```bash
-  # Entrar no diretório do back-end:
+  # Entrar no diretório do mobile:
   $ cd mobile
 
   # Instalar as dependências:
