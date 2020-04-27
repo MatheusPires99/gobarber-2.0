@@ -7,12 +7,13 @@
   <a href="#books-requisitos">Requisitos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-começando">Começando</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#gear-iniciando-back-end">Node.js</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#computer-iniciando-front-end">ReactJS</a><!-- &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#iphone-iniciando-mobile">React Native</a> -->
+  <a href="#computer-iniciando-front-end">ReactJS</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#iphone-iniciando-mobile">React Native</a>
 </p>
 
 <h1 align="center">
-    <img alt="GoBarber" src="https://res.cloudinary.com/matheuspires/image/upload/v1587645873/gobarber-1300_tgcyef.gif" />
+    <img alt="GoBarber" src="https://res.cloudinary.com/matheuspires/image/upload/v1587645873/gobarber-1300_tgcyef.gif" width="750px" />
+    <img alt="GoBarber" src="https://res.cloudinary.com/matheuspires/image/upload/v1587994336/gobarber-mobile_icxkq5.gif" width="254px" />
 </h1>
 
 ## :page_with_curl: Sobre
@@ -26,13 +27,13 @@ Já o prestador de serviço, através de um interface Web, consegue ter acesso a
 
 **ReactJS**: é uma página Web no qual o prestador de serviço tem acesso a todo o seu calendário de agendamentos.
 
-**React Native**: em breve...
+**React Native**: é um aplicativo em que o usuário tem acesso a todos os prestadores de serviço cadastrados no App, com isso ele pode fazer um agendamento que o prestador de preferência.
 
 ## :books: Requisitos
 - Ter [**Git**](https://git-scm.com/) para clonar o projeto.
 - Ter [**Node.js**](https://nodejs.org/en/) instalado.
 - Ter [**Docker**](https://www.docker.com/) rodando um container PostgreSQL.
-<!-- - Um dispositivo ou emulador iOS ou Android -->
+- Um dispositivo ou emulador iOS ou Android
 
 ## :rocket: Começando
 ``` bash
@@ -68,6 +69,18 @@ Já o prestador de serviço, através de um interface Web, consegue ter acesso a
 
   # Rodar a aplicação:
   $ yarn start
+```
+
+## :phone: Iniciando mobile
+```bash
+  # Entrar no diretório do back-end:
+  $ cd mobile
+
+  # Instalar as dependências:
+  $ yarn
+
+  # Rodar a aplicação:
+  $ yarn ios ou yarn android 
 ```
 
 Feito com ❤️ por Matheus Pires 👋🏻 [Get in touch!](https://github.com/MatheusPires99)
