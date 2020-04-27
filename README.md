@@ -12,8 +12,8 @@
 </p>
 
 <h1 align="center">
-    <img alt="GoBarber" src="https://res.cloudinary.com/matheuspires/image/upload/v1587645873/gobarber-1300_tgcyef.gif" width="750px" />
-    <img alt="GoBarber" src="https://res.cloudinary.com/matheuspires/image/upload/v1587995568/gobarber-mobile_v3yg7w.gif" width="232px" />
+    <img alt="GoBarber" src="https://res.cloudinary.com/matheuspires/image/upload/v1587645873/gobarber-1300_tgcyef.gif" />
+    <img alt="GoBarber" src="https://res.cloudinary.com/matheuspires/image/upload/v1587995568/gobarber-mobile_v3yg7w.gif" />
 </h1>
 
 ## :page_with_curl: Sobre
@@ -71,7 +71,7 @@ Já o prestador de serviço, através de um interface Web, consegue ter acesso a
   $ yarn start
 ```
 
-## :phone: Iniciando mobile
+## :iphone: Iniciando mobile
 ```bash
   # Entrar no diretório do back-end:
   $ cd mobile
