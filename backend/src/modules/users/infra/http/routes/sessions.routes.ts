@@ -1,10 +1,10 @@
 import { Router } from "express";
 
-import UsersController from "../controllers/SessionsController";
+import SessionsController from "../controllers/SessionsController";
 
 const sessionsRouter = Router();
-const usersController = new UsersController();
+const sessionsController = new SessionsController();
 
-sessionsRouter.post("/", usersController.create);
+sessionsRouter.post("/", sessionsController.create);
 
 export default sessionsRouter;
