@@ -8,7 +8,7 @@ import AppError from "@shared/errors/AppError";
 interface ITokenPayload {
   iat: number;
   ext: number;
-  subject: string;
+  sub: string;
 }
 
 export default function auth(
@@ -27,10 +27,10 @@ export default function auth(
   try {
     const decoded = verify(token, authConfig.jwt.secret);
 
-    const { subject } = decoded as ITokenPayload;
+    const { sub } = decoded as ITokenPayload;
 
     request.user = {
-      id: subject,
+      id: sub,
     };
 
     return next();
