@@ -13,6 +13,7 @@ const providerDayAvailabilityController = new ProviderDayAvailabilityController(
 providersRouter.use(authMiddleware);
 
 providersRouter.get("/", providersController.index);
+
 providersRouter.get(
   "/:provider_id/month-availability",
   providerMonthAvailabilityController.index,
