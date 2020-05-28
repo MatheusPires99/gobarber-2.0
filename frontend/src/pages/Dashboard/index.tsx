@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { FiPower, FiClock } from "react-icons/fi";
 
 import { useAuth } from "../../hooks/auth";
@@ -13,10 +13,14 @@ import {
   Content,
   Schedule,
   NextAppointment,
+  Section,
+  Appointment,
   Calender,
 } from "./styles";
 
 const Dashboard: React.FC = () => {
+  const [selectedDate, setSelectedDate] = useState(new Date());
+
   const { signOut, user } = useAuth();
 
   return (
@@ -64,6 +68,61 @@ const Dashboard: React.FC = () => {
               </span>
             </div>
           </NextAppointment>
+
+          <Section>
+            <strong>Manhã</strong>
+
+            <Appointment>
+              <span>
+                <FiClock />
+                08:00
+              </span>
+
+              <div>
+                <img
+                  src="http://localhost:3333/files/f67702a29cf44fa8fb11-ME%20-%20500x500%20(Cortada).png"
+                  alt="Matheus Pires"
+                />
+
+                <strong>Matheus Pires</strong>
+              </div>
+            </Appointment>
+            <Appointment>
+              <span>
+                <FiClock />
+                08:00
+              </span>
+
+              <div>
+                <img
+                  src="http://localhost:3333/files/f67702a29cf44fa8fb11-ME%20-%20500x500%20(Cortada).png"
+                  alt="Matheus Pires"
+                />
+
+                <strong>Matheus Pires</strong>
+              </div>
+            </Appointment>
+          </Section>
+
+          <Section>
+            <strong>Tarde</strong>
+
+            <Appointment>
+              <span>
+                <FiClock />
+                08:00
+              </span>
+
+              <div>
+                <img
+                  src="http://localhost:3333/files/f67702a29cf44fa8fb11-ME%20-%20500x500%20(Cortada).png"
+                  alt="Matheus Pires"
+                />
+
+                <strong>Matheus Pires</strong>
+              </div>
+            </Appointment>
+          </Section>
         </Schedule>
 
         <Calender />
