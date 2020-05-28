@@ -59,3 +59,101 @@ export const Profile = styled.div`
     }
   }
 `;
+
+export const Content = styled.main`
+  max-width: 1120px;
+  margin: 64px auto;
+
+  display: flex;
+`;
+
+export const Schedule = styled.div`
+  margin-right: 120px;
+
+  flex: 1;
+
+  h1 {
+    font-size: 36px;
+  }
+
+  p {
+    margin-top: 32px;
+    color: #ff9000;
+    font-weight: 500;
+
+    display: flex;
+    align-items: center;
+
+    span {
+      display: flex;
+      align-items: center;
+    }
+
+    span + span::before {
+      content: "";
+      width: 1px;
+      height: 12px;
+      background: #ff9000;
+      margin: 0 8px;
+    }
+  }
+`;
+
+export const NextAppointment = styled.div`
+  margin-top: 64px;
+
+  > strong {
+    color: #999591;
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  div {
+    background: #3e3b46;
+    padding: 16px;
+    border-radius: 10px;
+    margin-top: 24px;
+    position: relative;
+
+    display: flex;
+    align-items: center;
+
+    &::before {
+      content: "";
+      position: absolute;
+      height: 80%;
+      width: 1px;
+      left: 0;
+      top: 10%;
+      background: #ff9000;
+    }
+
+    img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+    }
+
+    strong {
+      margin-left: 24px;
+      color: #fff;
+    }
+
+    span {
+      margin-left: auto;
+      color: #999591;
+
+      display: flex;
+      align-items: center;
+
+      svg {
+        color: #ff9000;
+        margin-right: 8px;
+      }
+    }
+  }
+`;
+
+export const Calender = styled.aside`
+  width: 380px;
+`;
