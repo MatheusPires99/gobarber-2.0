@@ -39,6 +39,7 @@
     "react/prop-types": "off",
     "@typescript-eslint/camelcase": "off",
     "no-unused-expressions": "off",
+    "import/no-duplicates": "off",
     "@typescript-eslint/explicit-function-return-type": [
       "error",
       {
