@@ -1,5 +1,6 @@
 import React, { useCallback, useEffect, useState } from "react";
 import { useNavigation } from "@react-navigation/native";
+import Icon from "react-native-vector-icons/Feather";
 
 import api from "../../services/api";
 import { useAuth } from "../../hooks/auth";
@@ -12,6 +13,13 @@ import {
   ProfileButton,
   UserAvatar,
   ProvidersList,
+  ProvidersListTitle,
+  ProviderContainer,
+  ProviderAvatar,
+  ProviderInfo,
+  ProviderName,
+  ProviderMeta,
+  ProviderMetaText,
 } from "./styles";
 
 export interface Provider {
@@ -36,6 +44,13 @@ const Dashboard: React.FC = () => {
     navigate("Profile");
   }, [navigate]);
 
+  const navigateToCreateAppointment = useCallback(
+    (providerId: string) => {
+      navigate("CreateAppointment", { providerId });
+    },
+    [navigate],
+  );
+
   return (
     <Container>
       <Header>
@@ -52,7 +67,30 @@ const Dashboard: React.FC = () => {
       <ProvidersList
         data={providers}
         keyExtractor={(provider) => provider.id}
-        renderItem={({ item }) => <UserName>{item.name}</UserName>}
+        ListHeaderComponent={
+          <ProvidersListTitle>Cabeleireiros</ProvidersListTitle>
+        }
+        renderItem={({ item: provider }) => (
+          <ProviderContainer
+            onPress={() => navigateToCreateAppointment(provider.id)}
+          >
+            <ProviderAvatar source={{ uri: provider.avatar_url }} />
+
+            <ProviderInfo>
+              <ProviderName>{provider.name}</ProviderName>
+
+              <ProviderMeta>
+                <Icon name="calendar" size={14} color="#ff9000" />
+                <ProviderMetaText>Segunda a sexta</ProviderMetaText>
+              </ProviderMeta>
+
+              <ProviderMeta>
+                <Icon name="clock" size={14} color="#ff9000" />
+                <ProviderMetaText>8h as 18h</ProviderMetaText>
+              </ProviderMeta>
+            </ProviderInfo>
+          </ProviderContainer>
+        )}
       />
     </Container>
   );
