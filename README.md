@@ -12,7 +12,7 @@
 </p>
 
 <h1 align="center">
-    <img alt="GoBarber" src="https://res.cloudinary.com/matheuspires/image/upload/v1587645873/gobarber-1300_tgcyef.gif" />
+    <img alt="GoBarber" src="https://res.cloudinary.com/matheuspires/image/upload/v1591099832/gobarber_wadrfc.gif" />
     <img alt="GoBarber" src="https://res.cloudinary.com/matheuspires/image/upload/v1587995568/gobarber-mobile_v3yg7w.gif" />
 </h1>
 
