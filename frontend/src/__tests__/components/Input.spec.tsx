@@ -40,7 +40,7 @@ describe("Input component", () => {
       expect(containerElement).toHaveStyle("color: #ff9000");
     });
 
-    fireEvent.focus(inputElement);
+    fireEvent.blur(inputElement);
 
     await wait(() => {
       expect(containerElement).not.toHaveStyle("border-color: #ff9000");

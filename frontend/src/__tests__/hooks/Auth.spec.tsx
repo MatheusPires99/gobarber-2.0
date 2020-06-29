@@ -46,9 +46,9 @@ describe("Auth hook", () => {
   it("should restore saved data from storage when auth inits", () => {
     jest.spyOn(Storage.prototype, "getItem").mockImplementation(key => {
       switch (key) {
-        case "GoBarber:token":
+        case "@GoBarber:token":
           return "token-123";
-        case "GoBarber:user":
+        case "@GoBarber:user":
           return JSON.stringify({
             id: "user-123",
             name: "John Doe",
@@ -69,9 +69,9 @@ describe("Auth hook", () => {
   it("should be hable to sign out", async () => {
     jest.spyOn(Storage.prototype, "getItem").mockImplementation(key => {
       switch (key) {
-        case "GoBarber:token":
+        case "@GoBarber:token":
           return "token-123";
-        case "GoBarber:user":
+        case "@GoBarber:user":
           return JSON.stringify({
             id: "user-123",
             name: "John Doe",
